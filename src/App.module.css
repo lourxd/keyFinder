@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Poppins:wght@600&family=Source+Sans+Pro:wght@700&display=swap');
+
+.App {
+  text-align: center;
+}
+
+.keyContainer{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.keyText{
+  font-family: 'Fredoka', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 120px;
+  user-select: none;
+}
+
+.wholePageInput{
+  height: 0;
+  width: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  cursor: none;
+}
+
+.keyCopyButton{
+  border: none;
+  font-family: 'Fredoka', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+  background-color: #fff;
+  border-radius: 1000px;
+  width: fit-content;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+.keyCopyButton:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.mainKeyContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.headerTop{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
